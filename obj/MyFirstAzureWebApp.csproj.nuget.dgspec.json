@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wissen\\OneDrive - Wissen Technology Private Limited\\Desktop\\dotnetsample\\MyFirstAzureWebApp\\MyFirstAzureWebApp.csproj": {}
+    "D:\\dotnetsample\\MyFirstAzureWebApp\\MyFirstAzureWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wissen\\OneDrive - Wissen Technology Private Limited\\Desktop\\dotnetsample\\MyFirstAzureWebApp\\MyFirstAzureWebApp.csproj": {
+    "D:\\dotnetsample\\MyFirstAzureWebApp\\MyFirstAzureWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wissen\\OneDrive - Wissen Technology Private Limited\\Desktop\\dotnetsample\\MyFirstAzureWebApp\\MyFirstAzureWebApp.csproj",
+        "projectUniqueName": "D:\\dotnetsample\\MyFirstAzureWebApp\\MyFirstAzureWebApp.csproj",
         "projectName": "MyFirstAzureWebApp",
-        "projectPath": "C:\\Users\\Wissen\\OneDrive - Wissen Technology Private Limited\\Desktop\\dotnetsample\\MyFirstAzureWebApp\\MyFirstAzureWebApp.csproj",
+        "projectPath": "D:\\dotnetsample\\MyFirstAzureWebApp\\MyFirstAzureWebApp.csproj",
         "packagesPath": "C:\\Users\\Wissen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wissen\\OneDrive - Wissen Technology Private Limited\\Desktop\\dotnetsample\\MyFirstAzureWebApp\\obj\\",
+        "outputPath": "D:\\dotnetsample\\MyFirstAzureWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Wissen\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Identity.Web.UI": {
+              "target": "Package",
+              "version": "[2.17.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
