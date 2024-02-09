@@ -54,4 +54,4 @@ jobs:
           app-name: 'apps-wtc-core-dev-apci1-001'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_931076AA98AE49D391C0E14DE864599E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4DA5BAB870414B848454FCF61C74532A }}
